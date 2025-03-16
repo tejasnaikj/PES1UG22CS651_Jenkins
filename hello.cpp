@@ -3,6 +3,6 @@ using namespace std;
 
 int main() {
     cout << "Hello, Jenkins!" << endl;
-    cout << "is hook trigerred" << endl;
+    cout << "Is webhook working?" << endl;
     return 0;
 }

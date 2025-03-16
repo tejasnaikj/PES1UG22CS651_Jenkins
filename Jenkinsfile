@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Compiling the C++ program...'
-                sh 'g++ -o hello_exec hello.cpp'
+                sh 'g++ -o hello_exec h.cpp'
             }
         }
         
